@@ -28,8 +28,12 @@ body {
 
 .logo {
     font-size: 1.8rem;
-    font-weight: bold; /* Bold the logo */
+    font-weight: bold;
+    /* Bold the logo */
     color: #f04e31;
+    position: absolute;
+    left: 60px;
+
 }
 
 .nav-links {
@@ -45,11 +49,13 @@ body {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s ease; /* Smooth color transition */
+    transition: color 0.3s ease;
+    /* Smooth color transition */
 }
 
 .nav-links a:hover {
-    color: #f04e31; /* Hover effect */
+    color: #f04e31;
+    /* Hover effect */
 }
 
 .hero h2 {
@@ -115,7 +121,8 @@ body {
 }
 
 .skill-item:hover {
-    transform: translateY(-5px); /* Hover effect */
+    transform: translateY(-5px);
+    /* Hover effect */
 }
 
 .skill-item h3 {
@@ -147,21 +154,25 @@ body {
     border-radius: 8px;
     position: relative;
     cursor: pointer;
-    transition: transform 0.3s ease; /* Smooth scaling transition */
+    transition: transform 0.3s ease;
+    /* Smooth scaling transition */
 }
 
 .portfolio-item img {
     width: 100%;
     display: block;
-    transition: transform 0.3s ease; /* Hover effect for image zoom */
+    transition: transform 0.3s ease;
+    /* Hover effect for image zoom */
 }
 
 .portfolio-item:hover img {
-    transform: scale(1.05); /* Slight zoom effect */
+    transform: scale(1.05);
+    /* Slight zoom effect */
 }
 
 .portfolio-item:hover {
-    transform: translateY(-5px); /* Lift effect on hover */
+    transform: translateY(-5px);
+    /* Lift effect on hover */
 }
 
 /* Contact Section */
@@ -182,9 +193,11 @@ body {
     color: #fff;
     font-size: 0.9rem;
 }
+
 /* Modal Styles */
 .modal {
-    display: none; /* Hidden by default */
+    display: none;
+    /* Hidden by default */
     position: fixed;
     z-index: 10;
     padding-top: 100px;
@@ -226,6 +239,10 @@ body {
         flex-direction: column;
     }
 
+    .logo {
+        font-size: 1rem;
+    }
+
     .nav-links li {
         display: block;
         margin: 0.5rem 0;
@@ -239,19 +256,26 @@ body {
         font-size: 1rem;
     }
 
-    .portfolio-grid, .skills-grid {
-        grid-template-columns: 1fr; /* Single column on smaller screens */
+    .portfolio-grid,
+    .skills-grid {
+        grid-template-columns: 1fr;
+        /* Single column on smaller screens */
     }
-    
+
     .skill-item h3 {
-        font-size: 1.3rem; /* Smaller heading for skills */
+        font-size: 1.3rem;
+        /* Smaller heading for skills */
     }
 
     .skill-item p {
-        font-size: 0.85rem; /* Smaller text for skills */
+        font-size: 0.85rem;
+        /* Smaller text for skills */
     }
 
-    .skills h2, .about h2, .portfolio h2, .contact h2 {
+    .skills h2,
+    .about h2,
+    .portfolio h2,
+    .contact h2 {
         font-size: 1.8rem;
     }
 }
@@ -265,7 +289,10 @@ body {
         padding: 0.6rem 1.2rem;
     }
 
-    .skills h2, .about h2, .portfolio h2, .contact h2 {
+    .skills h2,
+    .about h2,
+    .portfolio h2,
+    .contact h2 {
         font-size: 1.6rem;
     }
 }
